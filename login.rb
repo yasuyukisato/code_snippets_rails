@@ -18,5 +18,3 @@ class LoginsController < ApplicationController
   skip_before_action :require_login, only: [:new, :create]
 end
 # LoginsControllerのnewアクションとcreateアクションをこれまでどおり認証不要にする
-
-puts 'aaa'
